@@ -1,0 +1,280 @@
+﻿#wrap
+{
+	width: 	1080px;
+	margin: 	auto;
+
+}
+#menu
+{
+	margin-left: 	300px;
+	margin-bottom: -50px;
+}
+#menu li
+{
+	float: 	left;
+	width: 	120px;
+	height: 	40px;
+	border-right:1px dotted;
+	padding-left: 	10px;
+	text-align: 	center;
+}
+
+#menu li a 
+{
+	text-decoration: 	none;
+	color:black;
+	font-weight: 	bold;
+
+}
+
+.SousMenu
+{
+	color: 	grey;
+	opacity: 	70%;
+}
+#wrapper{
+	width: 	1080px;
+	height: 	300px;
+	margin: 	auto;
+	background-color: 	black;
+}
+#banniere
+{
+	position: 	absolute;	
+	z-index: 	10;
+	width: 	800px;
+	margin-left: 	145px;
+	margin-top: 	30px;
+
+}
+
+#Titre
+{
+	text-align: 	center;	
+
+
+}
+
+
+h1
+{
+	font-size: 	20px;
+
+}
+
+#First, #Second ,#Third
+{
+	float: 	left;	
+	margin-left: 	20px;
+	width: 	300px;
+}
+/*Les titres des articles */
+#First h2, #Second h2, #Third h2
+{
+	font-size: 	20px;
+	color: blue;
+	padding-left: 	10px;
+
+}
+/*------------------------*/
+
+/* Pour les sous titres des articles */
+#First .SousTitre, #Second .SousTitre, #Third .SousTitre
+{
+	color: grey;
+	font-size: 	12px;
+	padding-left: 	10px;
+}
+
+/*-------------------------------------*/
+
+/* Image des articles */
+#First #MonImage, #Second #MonImage, #Third #MonImage
+{
+	width: 	75%;
+	height: 75%;
+}
+/*--------------------------*/
+/* Contenu de l'article*/
+
+#First .CorpsArticle, #Second .CorpsArticle , #Third .CorpsArticle
+{
+	padding-left: 	10px;
+	height: 	100px;
+	width:75%;
+}
+/*---------------------------*/
+/* Boutton de l'article */
+ #MonBoutton
+{
+	background: linear-gradient(60deg,#c0c0c0,white,#c0c0c0);
+	color : #4F88A5;
+	border-radius: 	2px 2px ;
+	height: 	25px;
+	width: 	150px;
+	font-size: 	10px;
+	padding-left: 	10px;
+	margin-left: 	10px;
+}
+#MonBoutton .fleche
+{
+	float: 	right;
+}
+/* ----------------------- */
+
+#Scroll2 hr
+{
+
+  margin-top: 400px;
+}
+
+
+
+/* Article réseaux sociaux */
+
+#SocialMedia, #Contact, #News
+{
+	width: 	300px;
+	float: 	left;	
+	margin-left: 	20px;
+	height: 	300px;
+	
+}
+
+#SocialMedia h2 , #Contact h2, #News h2
+{
+	padding-top: 	30px;
+	font-size: 	18px;
+
+}
+#Email
+{
+	height: 	40px;
+}
+
+#SocialMedia img
+{
+	margin-left	: 	10px;
+	padding-left: 	10px;
+	width: 	40px;
+	height: 	30px;
+}
+
+#Newsletter h2
+{
+	font-size: 	18px;
+}
+
+#Newsletter #Email
+{
+	border-radius: 	5px 5px;
+	width: 	300px;
+	text-align: 	center;
+	margin-top: 	15px;
+}
+
+
+#Contact #Name, #Mail
+{
+	border-radius: 	4px 4px;
+	width: 	300px;
+	margin-top: 	15px;
+	height: 	30px;
+}
+textarea
+{
+	height: 	140px;
+	border-radius: 	4px 4px;
+	width: 	300px;
+	margin-top: 	15px;
+}
+
+#News img
+{
+	float: 	left;
+
+}
+#Sub-news
+{
+	margin-bottom: 	25px;
+
+}
+
+#ButtonSub
+{
+	color : white;
+	border-radius: 	10px 10px 10px 10px; ;
+	width: 	250px;
+	font-size: 	14px;
+	height: 	40px;
+	padding-left: 	20px;
+	margin-top: 	20px;
+	background-color: 	#3D6C9C;
+}
+/* Texte à l'intérieur des boutons */ 
+#ButtonSub .PositionTextBouton
+{
+	float: 	left;
+}
+
+#ButtonSub .fleche
+{
+	float: 	right;
+}
+#FirstB , #SecondB, #ThirdB
+{
+	width: 	300px;
+	float: 	left;
+	margin-left: 	20px;	
+
+}
+/*--------------------*/
+
+#footerBis
+{
+	background-color: 	#4C4C4C;
+	height: 	15px;
+	width: 	1080px;
+	margin: 	auto;
+}
+
+footer
+{
+	height: 	130px;
+	width: 	1080px;
+	background-color: 	#333333;
+	margin: 	auto;
+}
+
+#BlocFooter1
+{
+	width: 	300px;
+	margin-left: 	100px;
+	padding-top: 	20px;
+}
+footer 
+{
+	color : #4C4C4C;
+}
+#BlocFooter1 ul
+{
+	width: 	250px;
+}
+#BlocFooter1 li
+{
+	margin-top: 	20px;
+	float: 	left;
+	width: 	50px;
+	padding-left: 	5px;	
+	font-size: 	11px;
+}
+#BlocFooter1  #dash
+{
+		border-right:1px dotted;
+}
+
+#Copyright
+{
+	width: 	300px;
+	float: 	right;			
+}
